@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ciclo de Vida del Software</title>
+
   <style>
     /* Estilos generales */
     body {
@@ -33,20 +34,20 @@
       padding: 2rem;
     }
 
-    /* Tarjetas de etapas */
+    /* Tarjetas */
     .stage {
       background-color: #1f1f23;
       border-radius: 8px;
       margin: 1rem;
       padding: 1.5rem;
       width: 300px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
       transition: transform 0.3s, box-shadow 0.3s;
     }
 
     .stage:hover {
       transform: translateY(-5px);
-      box-shadow: 0 6px 10px rgba(0,0,0,0.5);
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
     }
 
     .stage h2 {
@@ -56,6 +57,7 @@
 
     .stage p {
       color: #d1d1d1;
+      line-height: 1.5;
     }
 
     /* Pie de página */
@@ -66,7 +68,7 @@
       color: #a0a0a0;
     }
 
-    /* Responsivo */
+    /* Diseño responsivo */
     @media (max-width: 768px) {
       .stage {
         width: 90%;
@@ -74,42 +76,69 @@
     }
   </style>
 </head>
+
 <body>
+
   <header>
-   <h1>Ciclo de Vida del Desarrollo de Software</h1>
+    <h1>Ciclo de Vida del Desarrollo de Software</h1>
   </header>
+
   <main class="container">
+
     <section class="stage">
       <h2>1. Planificación</h2>
-      <p> Verificación y validación del software para asegurar su calidad.</p>
+      <p>
+        Definición de objetivos, alcance y análisis de viabilidad del proyecto.
+      </p>
     </section>
+
     <section class="stage">
       <h2>2. Análisis de Requisitos</h2>
-      <p> Despliegue del software en el entorno de producción </p>
+      <p>
+        Recopilación y documentación de las necesidades del usuario y del sistema.
+      </p>
     </section>
+
     <section class="stage">
       <h2>3. Diseño</h2>
-      <p> Actualizaciones y correcciones para mejorar el software post-despliegue.</p>
+      <p>
+        Creación de la arquitectura del software y diseño de componentes.
+      </p>
     </section>
+
     <section class="stage">
       <h2>4. Desarrollo</h2>
-      <p> Recopilación y documentación de las necesidades del usuario y del sistema.</p>
+      <p>
+        Codificación del software según las especificaciones del diseño.
+      </p>
     </section>
+
     <section class="stage">
       <h2>5. Pruebas</h2>
-      <p> Definición de objetivos, alcance y análisis de viabilidad del proyecto .</p>
+      <p>
+        Verificación y validación del software para asegurar su calidad.
+      </p>
     </section>
+
     <section class="stage">
       <h2>6. Implementación</h2>
-      <p>Codificación del software según las especificaciones del diseño.</p>
+      <p>
+        Despliegue del software en el entorno de producción.
+      </p>
     </section>
+
     <section class="stage">
       <h2>7. Mantenimiento</h2>
-      <p> Creación de la arquitectura del software y diseño de componentes.</p>
+      <p>
+        Actualizaciones y correcciones para mejorar el software después del despliegue.
+      </p>
     </section>
+
   </main>
+
   <footer>
-    <p>Examen del Tercer  Parcial</p>
+    <p>Examen del Tercer Parcial</p>
   </footer>
+
 </body>
 </html>
